@@ -11,23 +11,26 @@
 	<!-- the entire body must be written by student -->
 
 	<!-- Button trigger modal -->
-<button id="open-modal" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
+<button type="button" id="open-modal" class="btn btn-primary" data-toggle="modal" data-bs-toggle="modal" data-target="#newton-modal" data-bs-target="#newton-modal">
+  Launch newton modal
 </button>
-
+ 
+ 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+<div class="modal fade" id="newton-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">New Modal</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <h5 class="modal-title" id="exampleModalLongTitle">New Modal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
       <div class="modal-body">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	 <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-     </div>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odio!
+      </div>
+      <div class="modal-footer show">
+        <button type="button" class="btn btn-secondary show" data-dismiss="modal" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
